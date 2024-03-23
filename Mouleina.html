@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouleina</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/16x16.png">
+    <link rel="manifest" href="icon/site.webmanifest">
+    <link rel="mask-icon" href="icon/safari-pinned-tab.svg" color="#000000">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#150f0a">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mouleina.css"> 
+</head>
+
+<body>
+  <div class="header-container">
+    <div class="header">
+            <center>
+                <img src="header/Mouleina.svg" alt="Logo">
+            </center>
+        </div>
+      </div>
+    <button class="menu-toggle"></button>
+    <ul class="nav-vertikal">
+        <li><a class="nav-vertikal_z1" href="Mouleina.html">Nydelig</a></li>
+        <li><a class="nav-vertikal_z2" href="menu_sites/about.html">About</a></li>
+        <li><a class="nav-vertikal_z3" href="menu_sites/jobs.html">Jobs</a></li>
+        <li><a class="nav-vertikal_z4" href="mailto:investment@mouleina.com">Investment</a></li>
+        <li><a class="nav-vertikal_z5" href="menu_sites/terms_of_use.html">Terms of Use</a></li>
+    </ul>
+
+    <div>
+        <img src="images/000.png" alt="Nydelig" class="nydelig_000">
+        <img src="images/slogan.png" alt="Slogan" class="slogan">
+        <img src="images/111.png" alt="Discover" class="centered-image_1">
+        <p class="image-text_z1">Scroll through countless recipes.</p>
+        <p class="image-text_z2">The app will learn what you like and</p> 
+        <p class="image-text_z3">what you don't and suggest</p> 
+        <p class="image-text_z4">recipes based on that.</p>
+      </div>
+      
+      <div>
+        <img src="images/222.png" alt="Filter" class="centered-image_2">
+        <p class="image-text_z5">You can add filters. For example if you are vegan</p>
+        <p class="image-text_z6">or have allergies, you can specify that.</p>
+      </div>
+      
+      <div>
+        <img src="images/333.png" alt="Saved" class="centered-image_3">
+        <p class="image-text_z7">You can also add bookmarks to recipes</p>
+        <p class="image-text_z8">that sound interesting to you.</p>
+      </div>
+      
+      <div>
+        <img src="images/444.png" alt="Shopping list" class="centered-image_4">
+            <p class="image-text_z9">And when you are about to buy the</p>
+            <p class="image-text_z10">ingredients you need, the app creates</p>
+            <p class="image-text_z11">a shopping list for you.</p>
+            <p class="footer">Copyright © 2024 Mouleina. All rights reserved.</p>
+      </div>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var menuToggle = document.querySelector('.menu-toggle');
+        var nav = document.querySelector('.nav-vertikal');
+
+        menuToggle.addEventListener('click', function() {
+            nav.classList.toggle('active');
+        });
+    });
+    </script>
+</body>
+</html>
